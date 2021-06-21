@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+
+
+namespace DAL
+{
+   public class TienLuong_DAL
+    {
+        ThaoTacCSDL thaotac = new ThaoTacCSDL();
+        string[] name = { };
+        object[] value = { };
+        public DataTable BanLuong_Select()
+        {
+            return thaotac.SQL_Laydulieu("Select_BangLuong");
+        }
+
+        public int BangLuong_Insert(string MaLuong, string MaNV, string HoTen,string GioiTinh, string ChucVu, string ChucDanh, int LuongCB, int PhuCapChucVu)
+        {
+            name = new string[8];
+            value = new object[8];
+            name[0] = "@MaLuong"; value[0] = MaLuong;
+            name[1] = "@MaNV"; value[1] = MaNV;
+            name[2] = "@HoTen"; value[2] = HoTen;
+            name[3] = "@GioiTinh"; value[3] = GioiTinh;
+            name[4] = "@ChucVu"; value[4] = ChucVu;
+            name[5] = "@ChucDanh"; value[5] = ChucDanh;
+            name[6] = "@LuongCB"; value[6] = LuongCB;
+            name[7] = "@PhuCapChucVu"; value[7] = PhuCapChucVu;
+            return thaotac.SQL_Thuchien("Insert_BangLuong", name, value, 8);
+        }
+        public int BangLuong_Update(string MaLuong, string MaNV, string HoTen, string GioiTinh, string ChucVu, string ChucDanh, int LuongCB, int PhuCapChucVu)
+        {
+            name = new string[8];
+            value = new object[8];
+            name[0] = "@MaLuong"; value[0] = MaLuong;
+            name[1] = "@MaNV";value[1] = MaNV;
+            name[2] = "@HoTen"; value[2] = HoTen;
+            name[3] = "@GioiTinh"; value[3] = GioiTinh;
+            name[4] = "@ChucVu"; value[4] = ChucVu;
+            name[5] = "@ChucDanh"; value[5] = ChucDanh;
+            name[6] = "@LuongCB"; value[6] = LuongCB;
+            name[7] = "@PhuCapChucVu"; value[7] = PhuCapChucVu;
+            return thaotac.SQL_Thuchien("Update_BangLuong", name, value, 8);
+        }
+        public int BanLuong_Delete(string MaLuong)
+        {
+            name = new string[1];
+            value = new object[1];
+            name[0] = "@MaLuong"; value[0] = MaLuong;
+            return thaotac.SQL_Thuchien("Delete_BangLuong", name, value, 1);
+        }
+    }
+}
