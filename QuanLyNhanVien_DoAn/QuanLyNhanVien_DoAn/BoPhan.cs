@@ -62,5 +62,11 @@ namespace QuanLyNhanVien_DoAn
         {
 
         }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmabophan.Text = BoPhan_BLL.SinhMa("BoPhan", "MaBophan");
+            txtmabophan.Enabled = false;
+        }
     }
 }

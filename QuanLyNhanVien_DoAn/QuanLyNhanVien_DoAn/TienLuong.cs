@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
+using DAL;
 
 namespace QuanLyNhanVien_DoAn
 {
@@ -18,12 +19,25 @@ namespace QuanLyNhanVien_DoAn
         TangLuong_BLL TangLuong_BLL = new TangLuong_BLL();
         TTNhanVienCB_BLL TTNhanVienCB_BLL = new TTNhanVienCB_BLL();
         DataTable Luong = new DataTable();
-        public TienLuong()
+        public TienLuong(TaiKhoan acc)
         {
             InitializeComponent();
+            account = acc;
+            ChangeAccount();
         }
+        
+        void ChangeAccount()
+        {
+            butthem.Enabled = account.Type == 1;
+            butsua.Enabled = account.Type == 1;
+            butxoa.Enabled = account.Type == 1;
+            butthem1.Enabled = account.Type == 1;
+            butsua1.Enabled = account.Type == 1;
+            butxoa1.Enabled = account.Type == 1;
+        }
+        private TaiKhoan account;
         #region Tiền Lương
-        private void butshow_Click(object sender, EventArgs e)
+    private void butshow_Click(object sender, EventArgs e)
         {
             data.DataSource = TienLuong_BLL.BanLuong_Select();
         }
@@ -153,6 +167,12 @@ namespace QuanLyNhanVien_DoAn
         private void butthoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmaluong.Text = TienLuong_BLL.SinhMa("BangLuong", "MaLuong");
+            txtmaluong.Enabled = false;
         }
     }
 

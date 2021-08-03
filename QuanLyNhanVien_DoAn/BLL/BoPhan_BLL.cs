@@ -27,5 +27,9 @@ namespace BLL
         {
             return  BoPhan_DAL.BoPhan_Delete(MaBoPhan);
         }
+        public string SinhMa(string Bang, string Ma)
+        {
+            return BoPhan_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

@@ -63,5 +63,22 @@ namespace DAL
             NgatKetNoi();
             return dt;
         }
+        public string SQL_LayMaLonNhat(string TenSP, string[] name, object[] value, int Npara)
+        {
+            KetnoiCSDL();
+            SqlCommand cmd = new SqlCommand(TenSP, GetConnection);
+            cmd.CommandType = CommandType.StoredProcedure;
+            for (int i = 0; i < Npara; i++)
+            {
+                cmd.Parameters.AddWithValue(name[i], value[i]);
+            }
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            string MaLN = dt.Rows[0][0].ToString();
+
+            NgatKetNoi();
+            return MaLN;
+        }
     }
 }

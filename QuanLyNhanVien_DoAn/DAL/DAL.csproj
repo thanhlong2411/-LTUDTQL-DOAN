@@ -44,8 +44,10 @@
     <Compile Include="BaoHiem_DAL.cs" />
     <Compile Include="BoPhan_DAL.cs" />
     <Compile Include="DAL_Account.cs" />
+    <Compile Include="DataProvider.cs" />
     <Compile Include="HoSoThuViec_DAL.cs" />
     <Compile Include="PhongBan_DAL.cs" />
+    <Compile Include="TaiKhoan.cs" />
     <Compile Include="TangLuong_DAL.cs" />
     <Compile Include="ThaoTacCSDL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

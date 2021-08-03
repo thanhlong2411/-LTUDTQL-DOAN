@@ -73,5 +73,11 @@ namespace QuanLyNhanVien_DoAn
             txtvitritv.Text = data[7, dong].Value.ToString();
 
         }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmanhanvien.Text = HoSoThuViec_BLL.SinhMa("HoSoThuViec", "MaNV");
+            txtmanhanvien.Enabled = false;
+        }
     }
 }

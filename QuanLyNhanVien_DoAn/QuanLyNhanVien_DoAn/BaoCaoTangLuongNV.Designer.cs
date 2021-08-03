@@ -51,6 +51,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "BaoCaoTangLuongNV";
             this.Text = "BaoCaoTangLuongNV";
+            this.Load += new System.EventHandler(this.BaoCaoTangLuongNV_Load);
             this.ResumeLayout(false);
 
         }

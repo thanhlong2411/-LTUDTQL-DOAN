@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyNhanVien_DoAn
 {
-    public partial class Form1 : Form
+    public partial class AcccountTK : UserControl   
     {
-        public Form1()
+        public AcccountTK()
         {
             InitializeComponent();
+        }
+
+        private void AcccountTK_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

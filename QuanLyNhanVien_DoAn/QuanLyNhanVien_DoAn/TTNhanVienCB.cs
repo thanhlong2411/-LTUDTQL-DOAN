@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
+using DAL;
 
 namespace QuanLyNhanVien_DoAn
 {
@@ -16,11 +17,19 @@ namespace QuanLyNhanVien_DoAn
         TTNhanVienCB_BLL TTNhanVienCB_BLL = new TTNhanVienCB_BLL();
         BoPhan_BLL BoPhan_BLL = new BoPhan_BLL();
         PhongBan_BLL PhongBan_BLL = new PhongBan_BLL();
-        public TTNhanVienCB()
+        public TTNhanVienCB(TaiKhoan acc)
         {
             InitializeComponent();
+            account = acc;
+            ChangeAccount();
         }
-
+        void ChangeAccount()
+        {
+            butthem.Enabled = account.Type == 1;
+            butsua.Enabled = account.Type == 1;
+            butxoa.Enabled = account.Type == 1;
+        }
+        private TaiKhoan account;
         private void butshow_Click(object sender, EventArgs e)
         {
             data.DataSource = TTNhanVienCB_BLL.TTNhanVienCB_Select();
@@ -82,6 +91,12 @@ namespace QuanLyNhanVien_DoAn
         private void cbmabophan_SelectedIndexChanged(object sender, EventArgs e)
         {
             txtmaphong.Text = ((DataRowView)cbmabophan.SelectedItem)[1].ToString();
+        }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmanv.Text = TTNhanVienCB_BLL.SinhMa("ThongTinNhanVienCB", "MaNV");
+            txtmanv.Enabled = false;
         }
     }
 }

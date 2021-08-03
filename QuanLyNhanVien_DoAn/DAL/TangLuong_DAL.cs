@@ -16,6 +16,36 @@ namespace DAL
         {
             return thaotac.SQL_Laydulieu("Select_TangLuong");
         }
+        private string LayMaLonNhat(string Bang, string Ma)
+        {
+            name = new string[2];
+            value = new object[2];
+            name[0] = "@Bang"; value[0] = Bang;
+            name[1] = "@Ma"; value[1] = Ma;
+            return thaotac.SQL_LayMaLonNhat("LayMaLonNhat", name, value, 2);
+        }
+        public string SinhMa(string Bang, string Ma)
+        {
+            string MaMoi, MaCu;
+            MaCu = LayMaLonNhat(Bang, Ma);
+            string TienTo;
+            int HauTo;
+            TienTo = MaCu.Substring(0, 2);
+            HauTo = int.Parse(MaCu.Substring(2).ToString());
+            HauTo++;
+            if (HauTo < 10)
+            {
+                MaMoi = string.Concat(TienTo, "00", HauTo.ToString());
+            }
+            else
+            {
+                if (HauTo < 100)
+                    MaMoi = string.Concat(TienTo, "0", HauTo.ToString());
+                else
+                    MaMoi = string.Concat(TienTo, HauTo.ToString());
+            }
+            return MaMoi;
+        }
 
         public int TangLuong_Insert(string MaNV, string HoTen, string GioiTinh, string ChucVu, int LuongCBCu,int LuongCBMoi,int PhuCapMoi,int PhuCapCu,string LyDo)
         {

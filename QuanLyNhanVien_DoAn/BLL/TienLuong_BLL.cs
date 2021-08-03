@@ -26,5 +26,9 @@ namespace BLL
         {
             return TienLuong_DAL.BanLuong_Delete(MaLuong);
         }
+        public string SinhMa(string Bang, string Ma)
+        {
+            return TienLuong_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

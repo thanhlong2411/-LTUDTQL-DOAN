@@ -27,5 +27,9 @@ namespace BLL
         {
             return HoSoThuViec_DAL.HoSoLamViec_Delete(MaNV);
         }
+        public string SinhMa(string Bang, string Ma)
+        {
+            return HoSoThuViec_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

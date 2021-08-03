@@ -27,5 +27,9 @@ namespace BLL
         {
             return BaoHiem_DAL.BaoHiem_Delete(MaSoBH);
         }
+        public string SinhMa(string Bang, string Ma)
+        {
+            return BaoHiem_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

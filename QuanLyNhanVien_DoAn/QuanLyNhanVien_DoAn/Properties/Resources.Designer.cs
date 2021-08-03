@@ -223,6 +223,16 @@ namespace QuanLyNhanVien_DoAn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chou {
+            get {
+                object obj = ResourceManager.GetObject("chou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap color_light_blue_141 {
             get {
                 object obj = ResourceManager.GetObject("color_light_blue_141", resourceCulture);

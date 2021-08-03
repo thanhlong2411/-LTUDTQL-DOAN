@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcccountTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AcccountTK.Designer.cs">
+      <DependentUpon>AcccountTK.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaoCaoBangLuong.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -99,17 +105,11 @@
     <Compile Include="BoPhan.Designer.cs">
       <DependentUpon>BoPhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormDoiMK.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormDoiMK.Designer.cs">
-      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    <Compile Include="FrLogin.Designer.cs">
+      <DependentUpon>FrLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="HoSoThuViec.cs">
       <SubType>UserControl</SubType>
@@ -139,12 +139,6 @@
     </Compile>
     <Compile Include="FrMain.Designer.cs">
       <DependentUpon>FrMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrDangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrDangNhap.Designer.cs">
-      <DependentUpon>FrDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="PhongBan.cs">
       <SubType>UserControl</SubType>
@@ -185,6 +179,15 @@
     <Compile Include="TTNhanVienCB.Designer.cs">
       <DependentUpon>TTNhanVienCB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tài Khoản.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tài Khoản.Designer.cs">
+      <DependentUpon>Tài Khoản.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcccountTK.resx">
+      <DependentUpon>AcccountTK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaoCaoBangLuong.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BaoCaoBangLuong.cs</LastGenOutput>
@@ -205,11 +208,8 @@
     <EmbeddedResource Include="BoPhan.resx">
       <DependentUpon>BoPhan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDoiMK.resx">
-      <DependentUpon>FormDoiMK.cs</DependentUpon>
+    <EmbeddedResource Include="FrLogin.resx">
+      <DependentUpon>FrLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HoSoThuViec.resx">
       <DependentUpon>HoSoThuViec.cs</DependentUpon>
@@ -223,9 +223,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrMain.resx">
       <DependentUpon>FrMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrDangNhap.resx">
-      <DependentUpon>FrDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhongBan.resx">
       <DependentUpon>PhongBan.cs</DependentUpon>
@@ -251,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TTNhanVienCB.resx">
       <DependentUpon>TTNhanVienCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tài Khoản.resx">
+      <DependentUpon>Tài Khoản.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="BaoCaoLuong.xsc">
       <DependentUpon>BaoCaoLuong.xsd</DependentUpon>
@@ -324,6 +324,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{ecd3d528-6ffe-4d89-a1a8-c91b6f741030}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{a5fb1135-ed58-4d5e-87e8-c77275f4a404}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -490,6 +494,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Money_Calculator_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chou.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

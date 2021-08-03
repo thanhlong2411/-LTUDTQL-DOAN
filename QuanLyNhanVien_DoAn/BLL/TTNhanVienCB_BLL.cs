@@ -43,5 +43,9 @@ namespace BLL
         {
             return TTNhanVienCB_DAL.TTNhanVienCB_Delete(MaNV);
         }
+        public string SinhMa(string Bang,string Ma)
+        {
+            return TTNhanVienCB_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

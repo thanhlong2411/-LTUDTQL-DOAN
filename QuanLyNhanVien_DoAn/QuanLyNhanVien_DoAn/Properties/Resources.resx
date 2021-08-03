@@ -124,23 +124,23 @@
   <data name="phanlop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phanlop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hoadon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nhanvien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nhanvien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="133" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="[removal.ai]_tmp-60729cb0e9057" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\[removal.ai]_tmp-60729cb0e9057.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="remove_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="[removal.ai]_tmp-6073b40ac958f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\[removal.ai]_tmp-6073b40ac958f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tracuugiaovien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tracuugiaovien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="khoilop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khoilop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="afsadfdafdfaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\afsadfdafdfaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +151,14 @@
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Removal-617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Removal-617.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pupils" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pupils.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-folder - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-folder - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,6 +186,9 @@
   </data>
   <data name="hoadon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hoadon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money_Calculator_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money_Calculator_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="doimatkhau" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doimatkhau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,9 +220,6 @@
   <data name="phongban" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phongban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngaaa.com-4051963" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngaaa.com-4051963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Health-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Health-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -222,9 +228,6 @@
   </data>
   <data name="lock_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="note_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\note_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="upload" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,8 +241,8 @@
   <data name="capnhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\capnhat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons-folder - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons-folder - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="[removal.ai]_tmp-60729cb0e9057" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\[removal.ai]_tmp-60729cb0e9057.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,14 +262,14 @@
   <data name="truck-plus-icon-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\truck-plus-icon-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hoadon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="khoilop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khoilop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Removal-617" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Removal-617.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="note_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon01191" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon01191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,11 +283,11 @@
   <data name="loginfinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginfinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="color_light_blue_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\color_light_blue_141.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngaaa.com-4051963" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngaaa.com-4051963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\remove_user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon029" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,13 +295,13 @@
   <data name="Danh_muc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Danh_muc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="color_light_blue_141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color_light_blue_141.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="monhoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\monhoc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Money_Calculator_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money_Calculator_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

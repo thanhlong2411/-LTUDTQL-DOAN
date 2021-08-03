@@ -54,6 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.data = new System.Windows.Forms.DataGridView();
+            this.buttaomoi = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.data)).BeginInit();
@@ -62,17 +63,18 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.buttaomoi);
             this.groupBox2.Controls.Add(this.butshow);
             this.groupBox2.Controls.Add(this.butthoat);
             this.groupBox2.Controls.Add(this.butxoa);
             this.groupBox2.Controls.Add(this.butthem);
             this.groupBox2.Controls.Add(this.butsua);
             this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(20, 336);
+            this.groupBox2.Location = new System.Drawing.Point(28, 336);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(1119, 80);
+            this.groupBox2.Size = new System.Drawing.Size(1199, 80);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các chức năng";
@@ -87,7 +89,7 @@
             this.butshow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butshow.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.upload;
             this.butshow.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butshow.Location = new System.Drawing.Point(255, 20);
+            this.butshow.Location = new System.Drawing.Point(355, 20);
             this.butshow.Margin = new System.Windows.Forms.Padding(4);
             this.butshow.Name = "butshow";
             this.butshow.Size = new System.Drawing.Size(105, 43);
@@ -107,7 +109,7 @@
             this.butthoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butthoat.Image = global::QuanLyNhanVien_DoAn.Properties.Resources._1;
             this.butthoat.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butthoat.Location = new System.Drawing.Point(846, 20);
+            this.butthoat.Location = new System.Drawing.Point(981, 20);
             this.butthoat.Margin = new System.Windows.Forms.Padding(4);
             this.butthoat.Name = "butthoat";
             this.butthoat.Size = new System.Drawing.Size(105, 43);
@@ -127,7 +129,7 @@
             this.butxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butxoa.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.remove_user;
             this.butxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butxoa.Location = new System.Drawing.Point(697, 21);
+            this.butxoa.Location = new System.Drawing.Point(822, 21);
             this.butxoa.Margin = new System.Windows.Forms.Padding(4);
             this.butxoa.Name = "butxoa";
             this.butxoa.Size = new System.Drawing.Size(105, 43);
@@ -147,7 +149,7 @@
             this.butthem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butthem.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.add_user;
             this.butthem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butthem.Location = new System.Drawing.Point(407, 21);
+            this.butthem.Location = new System.Drawing.Point(518, 21);
             this.butthem.Margin = new System.Windows.Forms.Padding(4);
             this.butthem.Name = "butthem";
             this.butthem.Size = new System.Drawing.Size(105, 43);
@@ -167,7 +169,7 @@
             this.butsua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butsua.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.edit_user;
             this.butsua.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butsua.Location = new System.Drawing.Point(551, 20);
+            this.butsua.Location = new System.Drawing.Point(667, 21);
             this.butsua.Margin = new System.Windows.Forms.Padding(4);
             this.butsua.Name = "butsua";
             this.butsua.Size = new System.Drawing.Size(105, 43);
@@ -180,7 +182,7 @@
             // datengaysinh
             // 
             this.datengaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.datengaysinh.Location = new System.Drawing.Point(959, 45);
+            this.datengaysinh.Location = new System.Drawing.Point(1020, 45);
             this.datengaysinh.Margin = new System.Windows.Forms.Padding(4);
             this.datengaysinh.Name = "datengaysinh";
             this.datengaysinh.Size = new System.Drawing.Size(136, 28);
@@ -189,7 +191,7 @@
             // 
             // txtchucdanh
             // 
-            this.txtchucdanh.Location = new System.Drawing.Point(687, 99);
+            this.txtchucdanh.Location = new System.Drawing.Point(716, 99);
             this.txtchucdanh.Margin = new System.Windows.Forms.Padding(4);
             this.txtchucdanh.Name = "txtchucdanh";
             this.txtchucdanh.Size = new System.Drawing.Size(163, 28);
@@ -197,7 +199,7 @@
             // 
             // txtchucvu
             // 
-            this.txtchucvu.Location = new System.Drawing.Point(687, 45);
+            this.txtchucvu.Location = new System.Drawing.Point(716, 45);
             this.txtchucvu.Margin = new System.Windows.Forms.Padding(4);
             this.txtchucvu.Name = "txtchucvu";
             this.txtchucvu.Size = new System.Drawing.Size(166, 28);
@@ -208,7 +210,7 @@
             this.txthoten.Location = new System.Drawing.Point(398, 99);
             this.txthoten.Margin = new System.Windows.Forms.Padding(4);
             this.txthoten.Name = "txthoten";
-            this.txthoten.Size = new System.Drawing.Size(162, 28);
+            this.txthoten.Size = new System.Drawing.Size(188, 28);
             this.txthoten.TabIndex = 3;
             // 
             // txtmanv
@@ -216,13 +218,13 @@
             this.txtmanv.Location = new System.Drawing.Point(400, 50);
             this.txtmanv.Margin = new System.Windows.Forms.Padding(4);
             this.txtmanv.Name = "txtmanv";
-            this.txtmanv.Size = new System.Drawing.Size(160, 28);
+            this.txtmanv.Size = new System.Drawing.Size(186, 28);
             this.txtmanv.TabIndex = 2;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(590, 50);
+            this.label12.Location = new System.Drawing.Point(619, 50);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(71, 20);
@@ -232,7 +234,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(868, 104);
+            this.label7.Location = new System.Drawing.Point(929, 104);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 20);
@@ -242,7 +244,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(868, 48);
+            this.label6.Location = new System.Drawing.Point(929, 48);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(81, 20);
@@ -278,12 +280,14 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(20, 141);
+            this.groupBox1.Location = new System.Drawing.Point(28, 141);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1119, 171);
+            this.groupBox1.Size = new System.Drawing.Size(1199, 171);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin cơ bản";
@@ -299,7 +303,7 @@
             // 
             // txtgioitinh
             // 
-            this.txtgioitinh.Location = new System.Drawing.Point(959, 99);
+            this.txtgioitinh.Location = new System.Drawing.Point(1020, 99);
             this.txtgioitinh.Margin = new System.Windows.Forms.Padding(4);
             this.txtgioitinh.Name = "txtgioitinh";
             this.txtgioitinh.Size = new System.Drawing.Size(136, 28);
@@ -316,7 +320,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(588, 104);
+            this.label13.Location = new System.Drawing.Point(617, 104);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(88, 20);
@@ -358,7 +362,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.DarkViolet;
-            this.label20.Location = new System.Drawing.Point(409, 53);
+            this.label20.Location = new System.Drawing.Point(460, 65);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(358, 45);
             this.label20.TabIndex = 7;
@@ -368,13 +372,33 @@
             // 
             this.data.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.data.Location = new System.Drawing.Point(20, 444);
+            this.data.Location = new System.Drawing.Point(28, 444);
             this.data.Name = "data";
             this.data.RowHeadersWidth = 62;
             this.data.RowTemplate.Height = 28;
-            this.data.Size = new System.Drawing.Size(1119, 249);
+            this.data.Size = new System.Drawing.Size(1199, 249);
             this.data.TabIndex = 8;
             this.data.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_CellContentClick);
+            // 
+            // buttaomoi
+            // 
+            this.buttaomoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttaomoi.BackgroundImage")));
+            this.buttaomoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttaomoi.FlatAppearance.BorderSize = 0;
+            this.buttaomoi.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttaomoi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttaomoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttaomoi.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.upload;
+            this.buttaomoi.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttaomoi.Location = new System.Drawing.Point(217, 21);
+            this.buttaomoi.Margin = new System.Windows.Forms.Padding(4);
+            this.buttaomoi.Name = "buttaomoi";
+            this.buttaomoi.Size = new System.Drawing.Size(105, 43);
+            this.buttaomoi.TabIndex = 6;
+            this.buttaomoi.Text = "Tạo Mới";
+            this.buttaomoi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttaomoi.UseVisualStyleBackColor = true;
+            this.buttaomoi.Click += new System.EventHandler(this.buttaomoi_Click);
             // 
             // TTNhanVienCB
             // 
@@ -385,7 +409,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "TTNhanVienCB";
-            this.Size = new System.Drawing.Size(1158, 734);
+            this.Size = new System.Drawing.Size(1259, 718);
             this.Load += new System.EventHandler(this.TTNhanVienCB_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -423,5 +447,6 @@
         private System.Windows.Forms.TextBox txtgioitinh;
         private System.Windows.Forms.DataGridView data;
         private System.Windows.Forms.ComboBox cbmabophan;
+        private System.Windows.Forms.Button buttaomoi;
     }
 }

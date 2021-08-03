@@ -69,7 +69,7 @@
             // rdchucvu
             // 
             this.rdchucvu.AutoSize = true;
-            this.rdchucvu.Location = new System.Drawing.Point(650, 98);
+            this.rdchucvu.Location = new System.Drawing.Point(650, 129);
             this.rdchucvu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdchucvu.Name = "rdchucvu";
             this.rdchucvu.Size = new System.Drawing.Size(99, 24);
@@ -81,7 +81,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(328, 57);
+            this.label1.Location = new System.Drawing.Point(328, 88);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 20);
@@ -97,7 +97,7 @@
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(447, 178);
+            this.button3.Location = new System.Drawing.Point(447, 209);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(153, 68);
@@ -109,10 +109,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.timkiem;
-            this.pictureBox1.Location = new System.Drawing.Point(55, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(82, 82);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(202, 217);
+            this.pictureBox1.Size = new System.Drawing.Size(143, 143);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -126,7 +126,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(667, 178);
+            this.button2.Location = new System.Drawing.Point(667, 209);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 68);
@@ -138,7 +138,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(446, 48);
+            this.textBox1.Location = new System.Drawing.Point(446, 79);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.MaximumSize = new System.Drawing.Size(414, 29);
             this.textBox1.MinimumSize = new System.Drawing.Size(414, 29);
@@ -150,7 +150,7 @@
             // rdgioitinh
             // 
             this.rdgioitinh.AutoSize = true;
-            this.rdgioitinh.Location = new System.Drawing.Point(805, 98);
+            this.rdgioitinh.Location = new System.Drawing.Point(805, 129);
             this.rdgioitinh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdgioitinh.Name = "rdgioitinh";
             this.rdgioitinh.Size = new System.Drawing.Size(105, 24);
@@ -162,7 +162,7 @@
             // rdhoten
             // 
             this.rdhoten.AutoSize = true;
-            this.rdhoten.Location = new System.Drawing.Point(500, 98);
+            this.rdhoten.Location = new System.Drawing.Point(500, 129);
             this.rdhoten.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdhoten.Name = "rdhoten";
             this.rdhoten.Size = new System.Drawing.Size(105, 24);
@@ -174,7 +174,7 @@
             // rdmanv
             // 
             this.rdmanv.AutoSize = true;
-            this.rdmanv.Location = new System.Drawing.Point(304, 98);
+            this.rdmanv.Location = new System.Drawing.Point(304, 129);
             this.rdmanv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdmanv.Name = "rdmanv";
             this.rdmanv.Size = new System.Drawing.Size(133, 24);
@@ -202,7 +202,7 @@
             this.Controls.Add(this.data);
             this.Controls.Add(this.groupBox1);
             this.Name = "TimKiem";
-            this.Size = new System.Drawing.Size(1139, 690);
+            this.Size = new System.Drawing.Size(1117, 628);
             this.Load += new System.EventHandler(this.TimKiem_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
+using DAL;
 
 namespace QuanLyNhanVien_DoAn
 {
@@ -15,11 +16,20 @@ namespace QuanLyNhanVien_DoAn
     {
         BaoHiem_BLL BaoHiem_BLL = new BaoHiem_BLL();
         TTNhanVienCB_BLL TTNhanVienCB_BLL = new TTNhanVienCB_BLL();
-        public BaoHiem()
+        public BaoHiem( TaiKhoan acc)
         {
             InitializeComponent();
+            account = acc;
+            ChangeAccount();
         }
+        void ChangeAccount()
+        {
+            butthem.Enabled = account.Type == 1;
+            butsua.Enabled = account.Type == 1;
+            butxoa.Enabled = account.Type == 1;
 
+        }
+        private TaiKhoan account;
         private void butshow_Click(object sender, EventArgs e)
         {
             data.DataSource = BaoHiem_BLL.BaoHiem_Select();
@@ -69,6 +79,12 @@ namespace QuanLyNhanVien_DoAn
             cbmanv.DataSource = TTNhanVienCB_BLL.TTNhanVienCB_Select();
             cbmanv.DisplayMember = "MaNV";
             cbmanv.ValueMember = "MaNV";
+        }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmabaohiem.Text = BaoHiem_BLL.SinhMa("BaoHiem", "MaSoBH");
+            txtmabaohiem.Enabled = false;
         }
     }
 }

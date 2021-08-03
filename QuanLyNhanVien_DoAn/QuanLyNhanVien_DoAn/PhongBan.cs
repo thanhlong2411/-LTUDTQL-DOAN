@@ -73,5 +73,11 @@ namespace QuanLyNhanVien_DoAn
             txttenphongban.Text = data[2, dong].Value.ToString();
 
         }
-    }
+
+        private void buttaomoi_Click(object sender, EventArgs e)
+        {
+            txtmaphongban.Text = PhongBan_BLL.SinhMa("PhongBan", "MaPhong");
+            txtmaphongban.Enabled = false;
+        }
+    }   
 }

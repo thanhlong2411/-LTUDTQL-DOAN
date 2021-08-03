@@ -33,6 +33,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.data = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttaomoi = new System.Windows.Forms.Button();
             this.butshow = new System.Windows.Forms.Button();
             this.butthoat = new System.Windows.Forms.Button();
             this.butxoa = new System.Windows.Forms.Button();
@@ -101,7 +102,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(35, 91);
+            this.tabControl1.Location = new System.Drawing.Point(7, 70);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -140,6 +141,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.buttaomoi);
             this.groupBox2.Controls.Add(this.butshow);
             this.groupBox2.Controls.Add(this.butthoat);
             this.groupBox2.Controls.Add(this.butxoa);
@@ -155,6 +157,26 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Các chức năng";
             // 
+            // buttaomoi
+            // 
+            this.buttaomoi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttaomoi.BackgroundImage")));
+            this.buttaomoi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttaomoi.FlatAppearance.BorderSize = 0;
+            this.buttaomoi.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttaomoi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttaomoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttaomoi.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.upload;
+            this.buttaomoi.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttaomoi.Location = new System.Drawing.Point(186, 26);
+            this.buttaomoi.Margin = new System.Windows.Forms.Padding(4);
+            this.buttaomoi.Name = "buttaomoi";
+            this.buttaomoi.Size = new System.Drawing.Size(105, 43);
+            this.buttaomoi.TabIndex = 7;
+            this.buttaomoi.Text = "Tạo Mới";
+            this.buttaomoi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttaomoi.UseVisualStyleBackColor = true;
+            this.buttaomoi.Click += new System.EventHandler(this.buttaomoi_Click);
+            // 
             // butshow
             // 
             this.butshow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("butshow.BackgroundImage")));
@@ -165,7 +187,7 @@
             this.butshow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butshow.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.upload;
             this.butshow.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butshow.Location = new System.Drawing.Point(255, 20);
+            this.butshow.Location = new System.Drawing.Point(322, 25);
             this.butshow.Margin = new System.Windows.Forms.Padding(4);
             this.butshow.Name = "butshow";
             this.butshow.Size = new System.Drawing.Size(105, 43);
@@ -185,7 +207,7 @@
             this.butthoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butthoat.Image = global::QuanLyNhanVien_DoAn.Properties.Resources._1;
             this.butthoat.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butthoat.Location = new System.Drawing.Point(846, 20);
+            this.butthoat.Location = new System.Drawing.Point(913, 25);
             this.butthoat.Margin = new System.Windows.Forms.Padding(4);
             this.butthoat.Name = "butthoat";
             this.butthoat.Size = new System.Drawing.Size(105, 43);
@@ -205,7 +227,7 @@
             this.butxoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butxoa.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.remove_user;
             this.butxoa.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butxoa.Location = new System.Drawing.Point(697, 21);
+            this.butxoa.Location = new System.Drawing.Point(764, 26);
             this.butxoa.Margin = new System.Windows.Forms.Padding(4);
             this.butxoa.Name = "butxoa";
             this.butxoa.Size = new System.Drawing.Size(105, 43);
@@ -225,7 +247,7 @@
             this.butthem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butthem.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.add_user;
             this.butthem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butthem.Location = new System.Drawing.Point(407, 21);
+            this.butthem.Location = new System.Drawing.Point(474, 26);
             this.butthem.Margin = new System.Windows.Forms.Padding(4);
             this.butthem.Name = "butthem";
             this.butthem.Size = new System.Drawing.Size(105, 43);
@@ -245,7 +267,7 @@
             this.butsua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.butsua.Image = global::QuanLyNhanVien_DoAn.Properties.Resources.edit_user;
             this.butsua.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.butsua.Location = new System.Drawing.Point(551, 20);
+            this.butsua.Location = new System.Drawing.Point(618, 25);
             this.butsua.Margin = new System.Windows.Forms.Padding(4);
             this.butsua.Name = "butsua";
             this.butsua.Size = new System.Drawing.Size(105, 43);
@@ -792,7 +814,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkViolet;
-            this.label6.Location = new System.Drawing.Point(398, 42);
+            this.label6.Location = new System.Drawing.Point(370, 21);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(379, 45);
             this.label6.TabIndex = 8;
@@ -806,7 +828,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tabControl1);
             this.Name = "TienLuong";
-            this.Size = new System.Drawing.Size(1158, 734);
+            this.Size = new System.Drawing.Size(1129, 702);
             this.Load += new System.EventHandler(this.TienLuong_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -881,5 +903,6 @@
         private System.Windows.Forms.TextBox txthoten1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button buttaomoi;
     }
 }

@@ -26,5 +26,9 @@ namespace BLL
         {
             return PhongBan_DAL.PhongBan_Delete(MaPhong);
         }
+        public string SinhMa(string Bang, string Ma)
+        {
+            return PhongBan_DAL.SinhMa(Bang, Ma);
+        }
     }
 }

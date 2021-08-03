@@ -25,5 +25,10 @@ namespace QuanLyNhanVien_DoAn
             rpt.SetDataSource(TangLuong_BLL.TangLuong_Select());
             crystalReportViewer1.ReportSource = rpt;
         }
+
+        private void BaoCaoTangLuongNV_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
